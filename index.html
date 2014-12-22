@@ -1,7 +1,58 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<!doctype>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=1024"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<title>I LOVE Suky！</title>
+	<meta name="description" content="This is for our 1st anniversary"/>
+	<meta name="author" content="Pengym">
+	<link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-supported">		
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+	<div id="impress">
+
+		<div id="bored" class="step slide" data-x="0" data-y="0">
+            <div class="rotating">
+            <q>Hi,妮妮,按按空格键或方向键哟~</q>
+            <div class="tailor"></div>
+            </div>
+    	</div>
+
+        <div id="title" class="step" data-x="1600" data-y="700" data-scale="4">
+            <span class="try">今天是12月24日</span>
+            <h1>平安夜</h1>
+        </div>
+
+        <div id="its" class="step" data-x="450 " data-y="2700" data-rotate="90" data-scale="4">
+            <p>It's a <strong>presentation tool</strong> <br/> inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+        </div>
+
+        <div id="its" class="step" data-x="2000" data-y="2700" data-rotate="90" data-scale="4">
+            <p>It's a <strong>presentation tool</strong> <br/> inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+        </div>
+
+
+    </div>
+
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+	
+	</body>
 </html>
