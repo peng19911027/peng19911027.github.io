@@ -85,7 +85,7 @@ body {
     font-family: Arial;
     min-height: 740px;
 
-    background: rgb(238, 45, 36);
+    background: rgb(210, 49, 49);
     /*
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
@@ -266,7 +266,16 @@ a:focus {
     padding: 0;
 }
 
+#title .christmas{
+    height: 164px;
+    width: 164px;
+    background-image: url(pic/chrismas.gif);
+    background-repeat: no-repeat;
+}
+
 #title .try {
+    margin-top: -164px;
+    margin-left: 180px;
     color: white;
     font-size: 40px;
     position: absolute;
@@ -282,7 +291,8 @@ a:focus {
 #title h1 {
     color: white;
     font-size: 96px;
-    margin-top: 24px;
+    margin-top: -120px;
+    margin-left: 180px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
