@@ -301,6 +301,32 @@ a:focus {
     transform:         translateZ(50px);
 }
 
+#its .chair{
+    width: 164px;
+    height: 164px;
+    background-image: url(pic/chair.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 164px 164px;
+    border-radius: 164px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+#its p{  
+    height: 59px;
+    line-height: 59px;
+    margin-top: -115px;  
+    font-size: 36px;
+    color: white;
+    text-align:left;
+    position: absolute;
+    margin-left: 200px;
+
+}
+
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
@@ -308,20 +334,20 @@ a:focus {
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
 #big {
-    width: 600px;
+
     text-align: center;
-    font-size: 60px;
-    line-height: 1;
+    color: white;
+
 }
 
 #big b {
     display: block;
-    font-size: 250px;
-    line-height: 250px;
+    font-size: 160px;
+    line-height: 50px;
 }
 
 #big .thoughts {
-    font-size: 90px;
+    font-size: 100px;
     line-height: 150px;
 }
 
@@ -336,7 +362,10 @@ a:focus {
 /*
     This step has some animated text ...
 */
-#ing { width: 500px }
+#ing { 
+    color: white;
+    font-size: 32px;
+}
 
 /*
     ... so we define display to `inline-block` to enable transforms and
@@ -384,11 +413,11 @@ a:focus {
     ... and 'scaling' to scale down after another quarter of a second.
 */
 #ing.present .scaling {
-    -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
+    -webkit-transform: scale(1.1);
+    -moz-transform:    scale(1.1);
+    -ms-transform:     scale(1.1);
+    -o-transform:      scale(1.1);
+    transform:         scale(1.1);
 
     -webkit-transition-delay: 0.5s;
     -moz-transition-delay:    0.5s;
@@ -403,10 +432,15 @@ a:focus {
 
 #imagination {
     width: 600px;
+    color: white;
 }
 
 #imagination .imagination {
     font-size: 78px;
+}
+
+#one-more-thing{
+    color: white;
 }
 
 /*
@@ -442,6 +476,8 @@ a:focus {
     which behaviour is correct as 3D transforms spec is not very clear about it.
 */
 #its-in-3d p {
+
+    color: white;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
     -ms-transform-style:     preserve-3d;
@@ -512,7 +548,8 @@ a:focus {
 }
 
 #its-in-3d .footnote {
-    font-size: 32px;
+    color: white;
+    font-size: 18px;
 
     -webkit-transform: translateZ(-10px);
     -moz-transform:    translateZ(-10px);
